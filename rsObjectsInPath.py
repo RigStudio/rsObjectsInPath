@@ -240,7 +240,7 @@ class rsObjecsInPathUI():
         cmds.separator(height=5, style="none", hr=True, parent=s_winRowB)
         self.parentHierarObInPa = cmds.checkBox("rsParentHierarchyObInPa", label='Parent Hierarchy', align='right', v=False, parent=s_winRowB, en=False)
         cmds.separator(height=5, style="none", hr=True, parent=s_winRowB)
-        self.selectNewObjsObInPa = cmds.checkBox("rsSelectNewObjsObInPa", label='Select New Objects', cc=self.rsMaintTan, align='right', v=True, parent=s_winRowB)
+        self.selectNewObjsObInPa = cmds.checkBox("rsSelectNewObjsObInPa", label='Select New Objects', align='right', v=True, parent=s_winRowB)
         cmds.separator(height=5, style="none", hr=True, parent=s_winLayOptions)
         cmds.separator(height=10, style="none", hr=True, parent=s_winColA)
         s_winLayObjects = cmds.frameLayout(label='Objects for the path', li=86, borderStyle='etchedOut', parent=s_winColPro2)
